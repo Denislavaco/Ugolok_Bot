@@ -4,7 +4,7 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardRemove, BotCommand
 from aiogram.utils.markdown import bold, italic, text
 
-bot = Bot(token="7897405173:AAEtpjllUF2cphVUbH5ZoTDKXipccPh__hY")
+bot = Bot(token="TOKEN")
 dp = Dispatcher()
 
 MAIN_MESSAGE = text(
